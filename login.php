@@ -11,7 +11,6 @@ $dbname = "myDB";
 $conn = new mysqli($servername, $username, $password, $dbname); 
  
 // Kiểm tra kết nối 
-76 
  
 if ($conn->connect_error) { 
     die("Kết nối không thành công: " . $conn->connect_error); 
@@ -50,7 +49,6 @@ vào trang chào mừng
  
 <body> 
     <h2>Đăng nhập</h2> 
-77 
  
     <form method="post" action="<?php echo 
 htmlspecialchars($_SERVER["PHP_SELF"]); ?>"> 
