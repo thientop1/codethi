@@ -14,7 +14,7 @@ if ($conn->connect_error) {
     die("Kết nối không thành công: " . $conn->connect_error);
 }
 
-// Kiểm tra nếu form đã submit
+// Kiểm tr nếu form đã submit
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Lấy giá trị từ form
     $username = $_POST["username"];
