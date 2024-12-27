@@ -18,10 +18,10 @@
 
     <?php
     // Kết nối đến cơ sở dữ liệu MySQL
-    $servername = "localhost";
-    $username = "admin";
-    $password = "Thien141747";
-    $database = "Diem";
+$servername = "localhost";
+$username = "admin";
+$password = "Thien141747"; // Thay thế your_password bằng mật khẩu thực tế
+$database = "myDB";
 
     $conn = new mysqli($servername, $username, $password, $database);
 
