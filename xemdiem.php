@@ -19,9 +19,9 @@
     <?php
     // Kết nối đến cơ sở dữ liệu MySQL
     $servername = "localhost";
-    $username = "tai_khoan_mysql";
-    $password = "mat_khau_mysql";
-    $database = "ten_database";
+    $username = "admin";
+    $password = "Thien141747";
+    $database = "Diem";
 
     $conn = new mysqli($servername, $username, $password, $database);
 
